@@ -14,8 +14,10 @@
 ```sql
 CREATE DATABASE brawl_server;
 USE brawl_server;
+```
 
 ### 2. Импортируй схему
 
-```sql
+```bash
 mysql -u root -p brawl_server < database.sql
+```
