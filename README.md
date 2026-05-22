@@ -2,17 +2,27 @@
 
 Пустая схема базы данных для приватного сервера Brawl Stars.
 
-## ❗ Требования
+## Требования
 
 - MySQL 8.0
 - Права на создание БД
 
-## 💾 Установка
+## Установка
 
-### 1. Создай базу данных
+1. Создайте базу данных:
 
-```sql
 CREATE DATABASE brawl_server;
 USE brawl_server;
 
+2. Импортируйте схему:
+
 mysql -u root -p brawl_server < database.sql
+
+## Структура таблиц
+
+Таблица accounts: Id, Trophies, Data (JSON), login, password
+Таблица alliances: Id, Name, Trophies, Data (JSON)
+
+## Disclaimer
+
+Пустой шаблон. Никаких реальных данных Supercell. Для образовательных целей.
