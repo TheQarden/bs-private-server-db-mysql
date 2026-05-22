@@ -4,7 +4,7 @@
 
 ## 📥 Требования
 
-- MySQL 8.0 или MariaDB 10.6+
+- MySQL 8.0
 - Права на создание БД
 
 ## 🚀 Установка
@@ -14,3 +14,5 @@
 ```sql
 CREATE DATABASE brawl_server;
 USE brawl_server;
+
+mysql -u root -p brawl_server < database.sql
