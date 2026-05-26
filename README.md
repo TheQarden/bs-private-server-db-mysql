@@ -12,12 +12,12 @@
 ### 1. Создай базу данных
 
 ```sql
-CREATE DATABASE brawl_server;
-USE brawl_server;
+CREATE DATABASE tq_server;
+USE tq_server;
 ```
 
 ### 2. Импортируй схему
 
 ```bash
-mysql -u root -p brawl_server < database.sql
+mysql -u root -p tq_server < database.sql
 ```
