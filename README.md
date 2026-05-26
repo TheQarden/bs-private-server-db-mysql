@@ -1,6 +1,6 @@
-# BS Private Server Database (MySQL)
+# Private Server Database (MySQL)
 
-Пустая схема базы данных для приватного сервера Brawl Stars.
+Пустая схема базы данных для приватного сервера
 
 ## ❗ Требования
 
